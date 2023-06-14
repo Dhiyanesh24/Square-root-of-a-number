@@ -16,11 +16,10 @@ To write a program to find the square root of a number.
 
 ## Program:
 ```
-/*
+
 Program to find the square root for the given number(newton's method) using function.
 Developed by: Dhiyaneshwar P
 RegisterNumber: 212222110009
-*/
 def newton_method(number,number_iters = 100):
     a = float(number)
     for i in range(number_iters):
